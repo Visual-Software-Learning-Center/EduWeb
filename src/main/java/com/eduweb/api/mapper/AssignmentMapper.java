@@ -3,7 +3,9 @@ package com.eduweb.api.mapper;
 import com.eduweb.api.dto.AssignmentDto;
 import com.eduweb.api.dto.CreateAssignmentRequest;
 import com.eduweb.api.models.AssignmentsEntity;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AssignmentMapper {
     public AssignmentDto mapEntityToDto(AssignmentsEntity assignmentsEntity){
         AssignmentDto assignmentsDto = new AssignmentDto();

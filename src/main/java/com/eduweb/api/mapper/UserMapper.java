@@ -3,10 +3,11 @@ package com.eduweb.api.mapper;
 import com.eduweb.api.dto.CreateUserRequest;
 import com.eduweb.api.models.UserDto;
 import com.eduweb.api.models.UserEntity;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 public class UserMapper {
     public UserDto mapEntityToDto(UserEntity userEntity){
         UserDto userDto = new UserDto();

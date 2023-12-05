@@ -3,7 +3,9 @@ package com.eduweb.api.mapper;
 import com.eduweb.api.dto.VideoDto;
 import com.eduweb.api.dto.CreateVideoRequest;
 import com.eduweb.api.models.VideoEntity;
+import org.springframework.stereotype.Component;
 
+@Component
 public class VideoMapper {
     public VideoDto mapEntityToDto(VideoEntity videoEntity){
         VideoDto videoDto= new VideoDto();

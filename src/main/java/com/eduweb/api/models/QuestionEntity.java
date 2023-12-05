@@ -16,7 +16,7 @@ public class QuestionEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String QuestionName;
+    private String questionName;
     private String descriptions;
     private String answer;
 

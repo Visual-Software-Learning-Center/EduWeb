@@ -5,10 +5,12 @@ import com.eduweb.api.dto.CreateAssignmentRequest;
 import com.eduweb.api.mapper.AssignmentMapper;
 import com.eduweb.api.models.AssignmentsEntity;
 import com.eduweb.api.repository.AssignmentRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class AssignmentService {
     AssignmentRepository assignmentRepository;
 

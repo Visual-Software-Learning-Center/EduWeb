@@ -3,8 +3,9 @@ package com.eduweb.api.mapper;
 import com.eduweb.api.dto.CourseDto;
 import com.eduweb.api.dto.CreateCourseRequest;
 import com.eduweb.api.models.CoursesEntity;
-import com.eduweb.api.models.CoursesEntity;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CourseMapper {
     public CourseDto mapEntityToDto(CoursesEntity courseEntity){
         CourseDto courseDto= new CourseDto();

@@ -5,10 +5,12 @@ import com.eduweb.api.dto.VideoDto;
 import com.eduweb.api.mapper.VideoMapper;
 import com.eduweb.api.models.VideoEntity;
 import com.eduweb.api.repository.VideoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class VideoService {
 
     VideoRepository videoRepository;

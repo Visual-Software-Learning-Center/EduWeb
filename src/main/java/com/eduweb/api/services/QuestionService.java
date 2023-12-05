@@ -5,10 +5,12 @@ import com.eduweb.api.dto.CreateQuestionRequest;
 import com.eduweb.api.mapper.QuestionMapper;
 import com.eduweb.api.models.QuestionEntity;
 import com.eduweb.api.repository.QuestionRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class QuestionService {
     QuestionRepository questionRepository;
 

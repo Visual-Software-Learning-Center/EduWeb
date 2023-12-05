@@ -4,10 +4,12 @@ import com.eduweb.api.mapper.CourseMapper;
 import com.eduweb.api.dto.CourseDto;
 import com.eduweb.api.models.CoursesEntity;
 import com.eduweb.api.repository.CourseRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class CourseService {
     CourseRepository courseRepository;
     CourseMapper courseMapper;
